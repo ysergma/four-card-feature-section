@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;padding:0;
+}
+
+body
+{
+	width:1440px;
+	height:1100px;
+	position:relative;
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	background:hsl(0%, 0%, 97%);
+	text-align: center;
+}
+
+/***************************************************************************/
+.top
+{
+	position:absolute;
+	margin:100px 400px;
+	text-align:center;
+}
+.top h1
+{
+	font-weight: 300;
+	font-size: 35px;
+}
+
+.top h2
+{
+	font-weight: 600;
+	font-size:35px;
+}
+.top p
+{
+	font-weight: 200;
+	font-size:16px;
+}
+/**********************************builder********************************************/
+.cards
+{
+	position: relative;
+}
+
+.cards .builder
+{
+	border:2px solid transparent;
+	position: absolute;
+	top:350px;
+	left:500px;
+	height:250px;
+	width:350px;
+	background:#fff;
+	border-radius: 15px;
+	box-shadow: 39px 45px 45px 45px hsl(0, 0%, 98%);
+	
+}
+.cards .builder hr
+{
+	position: absolute;
+	top:-2px;
+	left:4px;
+	padding-top:0px;
+	height:5px;
+	width:342px;
+	background: hsl(0, 78%, 62%);
+	border:0;
+	outline: none;
+	border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+}
+.cards .builder h3
+{
+	margin-left:-165px;
+	font-size: 20px;
+	font-weight: 400px;
+}
+.cards .builder p
+{
+	font-weight: 200px;
+	padding-top: 10px;
+}
+.cards .builder img
+{
+	margin-left:230px;
+	padding-top:50px;
+}
+/***************************************supervisor******************************************/
+ .cards .supervisor
+{
+	border:2px solid transparent;
+	position: absolute;
+	top:530px;
+	left:120px;
+	height:250px;
+	width:350px;
+	background:#fff;
+	border-radius: 15px;
+	box-shadow: 39px 45px 45px 45px hsl(0, 0%, 98%);
+	
+}
+.cards .supervisor hr
+{
+	position: absolute;
+	top:-2px;
+	left:4px;
+	padding-top:0px;
+	height:5px;
+	width:342px;
+	background: hsl(180, 62%, 55%);
+	border:0;
+	outline: none;
+	border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+}
+.cards .supervisor h3
+{
+	margin-left:-177px;
+	font-size: 20px;
+	font-weight: 400px;
+	
+}
+.cards .supervisor p
+{
+	font-weight: 200px;
+	padding-top: 10px;
+	margin-left: -20px;
+	padding-left: 0px;
+}
+.cards .supervisor img
+{
+	margin-left:230px;
+	padding-top:50px;
+}
+/**************************************calculator********************************************/
+  .cards .calculator
+{
+	border:2px solid transparent;
+	position: absolute;
+	top:530px;
+	left:890px;
+	height:250px;
+	width:350px;
+	background:#fff;
+	border-radius: 15px;
+	box-shadow: 39px 45px 45px 45px hsl(0, 0%, 98%);
+	
+}
+.cards .calculator hr
+{
+	position: absolute;
+	top:-2px;
+	left:4px;
+	padding-top:0px;
+	height:5px;
+	width:342px;
+	background: hsl(212, 86%, 64%);
+	border:0;
+	outline: none;
+	border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+}
+.cards .calculator h3
+{
+	margin-left:-165px;
+	font-size: 20px;
+	font-weight: 400px;
+}
+.cards .calculator p
+{
+	font-weight: 200px;
+	padding-top: 10px;
+}
+.cards .calculator img
+{
+	margin-left:230px;
+	padding-top:50px;
+}
+/****************************************karma******************************************/
+.cards .karma
+{
+	border:2px solid transparent;
+	position: absolute;
+	top:650px;
+	left:500px;
+	height:250px;
+	width:350px;
+	background:#fff;
+	border-radius: 15px;
+	box-shadow: 39px 45px 45px 45px hsl(0, 0%, 98%);
+	
+}
+.cards .karma hr
+{
+	position: absolute;
+	top:-2px;
+	left:4px;
+	padding-top:0px;
+	height:5px;
+	width:342px;
+	background:hsl(34, 97%, 64%);
+	border:0;
+	outline: none;
+	border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+}
+.cards .karma h3
+{
+	font-size: 20px;
+	font-weight: 400px;
+	margin-left: -200px;
+}
+.cards .karma p
+{
+	font-weight: 100px;
+	padding-top: 10px;
+	padding-left:20px;
+}
+.cards .karma img
+{
+	margin-left:230px;
+	padding-top:50px;
+}
+/***************************************************************************/
+/**********************************attribution***********************************/
+footer .attribution
+{
+	position:absolute;
+	top:1000px;
+	color:#000;
+	font-size: 20px;
+	left:340px;
+}
+footer .attribution i
+{
+	color:#f00;
+	font-size:25px;
+}
+footer .attribution a 
+{
+	color:#000;
+	text-decoration: none;
+}
